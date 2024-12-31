@@ -1,13 +1,25 @@
-apk add git
+pkg update
 
-apk add python3
+pkg upgrade -y
 
-apk add py3-pip
+pkg install git
 
-git clone https://github.com/2rum006/ian.git
+pkg install python-pip
 
-cd cpmnuker
+git clone https://github.com/2rum006/kira.git
+
+cd kira
+
+git pull
+
+python3 -m pip install requests
+
+pkg i python-numpy
+
+pip install rich --upgrade
 
 pip install -r requirements.txt
 
-python3 main.py
+pip3 install pystyle
+
+python main.py
