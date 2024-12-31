@@ -6,9 +6,9 @@ pkg install git
 
 pkg install python-pip
 
-git clone https://github.com/2rum006/kira.git
+git clone https://github.com/2rum006/ian.git
 
-cd kira
+cd ian
 
 git pull
 
